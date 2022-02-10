@@ -271,7 +271,7 @@ a {
 /* inicio */
 #inicio {
     background-color: var(--black-importante);
-    background-image: url("..Fondo.png");
+    background-image: url("..Fondo.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
