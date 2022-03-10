@@ -5,284 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <!-- meta -->
-     <meta name="theme-color" content="#000000"/>
-
-     <meta
-         name="description"
-         content="JEFFRY ZAMORA">
-     <meta name="keywords" content="Jeffry Zamora">
-     <meta name="author" content="Jeffry Zamora">
-
     <!-- css -->
-    <link rel="preload" href="main.css" as="style">
-    <link rel="stylesheet" href="main.css">
-
+    <link rel="preload" href="src/css/header.css" as="style">
+    <link rel="stylesheet" href="src/css/header.css">
     
-    <link rel="preload" href="app.js" as="script">
-    <link rel="preload" href="Fondo.jpg" as="image">
+    <link rel="preload" href="src/css/styles.css" as="style">
+    <link rel="stylesheet" href="src/css/styles.css">
 
-    <!-- script -->
+    <!-- js -->
+    <link rel="preload" href="src/js/app.js" as="script">
 
-    <link rel="preload" href="app.js" as="script">
-    <!-- icons -->
-
-    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
-
-    <!-- font -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <!-- iconos -->
-    <link rel="apple-touch-icon" href="J.png">
-    <link rel="shortcut icon" href="letra-w.ico" type="image/x-icon">
-    <title>Jeffry Zamora</title>
+    <link rel="shortcut icon" href="src/img/icono-white.png" type="image/x-icon">
+    <title>Portafolio De White</title>
 </head>
 <body>
-
-    <!-- header -->
-    <header id="header">
-        <div class="header container">
-            <div class="header-nav">
-
-                <div class="logo">
-                    <a href="#inicio">
-                        <h1 class="header-logo negro">J<span class="color-logo">ef</span>f<span class="color-logo">ry</span></h1>
-                    </a>
-                </div>
-
-                <div class="nav-list">
-                    <div class="hamburger"><div class="bar"></div></div>
-                    <ul>
-                        <li><a href="#inicio" data-after="Inicio">Inicio</a></li>
-                        <li><a href="#servicios" data-after="Servicios">Servicios</a></li>
-                        <li><a href="#proyectos" data-after="Logros">Proyectos</a></li>
-                        <li><a href="#about" data-after="SobreMi">Sobre Mi</a></li>
-                        <li><a href="#contacto" data-after="Contacto">Contacto</a></li>
-
-                        <li>
-                            <div class="tema-iconos">
-                                <i class='bx bxs-moon claro'></i>
-                                <i class='bx bx-sun oscuro' ></i>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+    <!-- --- HEADER ---- -->
+    <header class="header">
+        <div class="close"><i class="fas fa-times"></i></div>
+        <a href="index.html"class="header-logo header-nav__a"><h1 class="header-logo__h1"><span class="header-logo__span">W</span>hite</h1></a>
+        <nav class="header-nav">
+            <ul class="header-nav__ul">
+                <li class="header-nav__li"><a href="index.html" class="header-nav__a active"><i class="fa fa-home header-nav__i"></i> Inicio</a></li>
+                <li class="header-nav__li"><a href="src/html/sobre.html" class="header-nav__a"><i class="fa fa-user header-nav__i"></i> Sobre</a></li>
+                <li class="header-nav__li"><a href="src/html/servicios.html" class="header-nav__a"><i class="fa fa-list header-nav__i"></i> Servicios</a></li>
+                <li class="header-nav__li"><a href="src/html/portafolio.html" class="header-nav__a"><i class="fa fa-briefcase header-nav__i"></i> Portafolio</a></li>
+                <li class="header-nav__li"><a href="src/html/contacto.html" class="header-nav__a"><i class="fa fa-comments header-nav__i"></i> Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="header-iconos">
+            <div class="header-redes">
+                <a href="https://web.facebook.com/garena.flores.9/" target="_blank" class="header-redes__a"><i class="fab fa-facebook header-redes__i"></i></a>
+                <a href="https://www.instagram.com/martin_flores_28/" class="header-redes__a" target="_blank"><i class="fa fa-instagram header-redes__i"></i></a>
+                <a href="https://www.youtube.com/channel/UCju_sO9JlcTts9v_gMofEWw" class="header-redes__a" target="_blank"><i class="fa fa-youtube header-redes__i"></i></a>
+                <a href="https://www.instagram.com/martin_flores_28/" class="header-redes__a" target="_blank"><i class="fa fa-github header-redes__i"></i></a>
             </div>
+            <div class="header-copy"><p>Copyright©2022 WhiteCompany</p></div>
         </div>
     </header>
-    <!-- fin header -->
 
-    <!-- inicio -->
-    <section id="inicio">
-        <div class="inicio container">
-            <div>
-                <h1>HOLA,<span></span></h1>
-                <h1>Mi Nombre es<span></span></h1>
-                <h1>Jeffry Zamora<span></span></h1>
-                <a href="https://docs.google.com/gview?url=http://lic-jeffryzamora.netlify.app/1_3a%C3%B1o.pdf&embedded=true" class="boton">Modulo Analisis de la informacion financiera</a>
-            </div>
-        </div>
-    </section> 
-    <!--fin inicio-->
-
-
-    <!-- servicios -->
-    <section id="servicios">
-        <div class="servicios container">
-            <div class="servicios-top">
-                <h1 class="titulo uppercase">Serv<span class="titulo--color">i</span>cios</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ullam quibusdam fuga exercitationem officia nobis. Sapiente tenetur quis, accusamus labore incidunt aspernatur recusandae blanditiis laboriosam molestias perferendis. Ullam nihil natus, officiis beatae doloribus, assumenda at repudiandae dolorem pariatur .</p>
-            </div>
-
-            <div class="servicios-bottom">
-                <div class="servicios-item">
-                    <div class="icono"><i class="fas fa-home"></i></div>
-                    <h2 class="uppercase white">Diseño Web</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore commodi magnam? Incidunt ratione, quos, nostrum accusamus earum cumque libero, corrupti neque maxime aut temporibus dolorum dolor.</p>
-                </div> <!--fin item-->
-
-                <div class="servicios-item">
-                    <div class="icono"><i class="fas fa-home"></i></div>
-                    <h2 class="uppercase white">Diseño Web</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore commodi magnam? Incidunt ratione, quos, nostrum accusamus earum cumque libero, corrupti neque maxime aut temporibus dolorum dolor.</p>
-                </div> <!--fin item-->
-
-                <div class="servicios-item">
-                    <div class="icono"><i class="fas fa-home"></i></div>
-                    <h2 class="uppercase white">Diseño Web</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore commodi magnam? Incidunt ratione, quos, nostrum accusamus earum cumque libero, corrupti neque maxime aut temporibus dolorum dolor.</p>
-                </div> <!--fin item-->
-
-                <div class="servicios-item">
-                    <div class="icono"><i class="fas fa-home"></i></div>
-                    <h2 class="uppercase white">Diseño Web</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore commodi magnam? Incidunt ratione, quos, nostrum accusamus earum cumque libero, corrupti neque maxime aut temporibus dolorum dolor.</p>
-                </div> <!--fin item-->
-            </div>
-        </div>
-    </section>
-    <!-- fin servicio -->
-
-    <!-- Proyectos -->
-    <section id="proyectos">
-        <div class="proyectos container">
-            <div>
-                <h1 class="titulo uppercase">Logros <span class="titulo--color">Nivel Academico</span></h1>
-            </div>
-
-            <div class="losproyectos">
-                <div class="proyectos-item">
-                    <div class="proyectos-info">
-                        <h2 class="margin">Bachiller en ciencias y letras</h2>
-                        <h3 class="margin">MINED</h3>
-                        <p class="margin">lLorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-                    </div>
-
-                    <div class="proyecto-img">
-                        <img src="Mined.png" alt="proyectos">
-                    </div>
-                </div> <!-- fin proyectos-->
-
-                <div class="proyectos-item">
-
-                    <div class="proyecto-img">
-                        <img src="Unan.jpg" alt="proyectos">
-                    </div>
-
-                    <div class="proyectos-info">
-                        <h2 class="margin">Licenciatura en Contaduria Publica y Finanzas</h2>
-                        <h3 class="margin">UNAN MANAGUA</h3>
-                        <p class="margin">lLorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-                    </div>
-                </div> <!-- fin proyectos-->
-
-                <div class="proyectos-item">
-                    <div class="proyectos-info">
-                        <h2 class="margin">Tecnico General en cintabilidad</h2>
-                        <h3 class="margin">INATEC</h3>
-                        <p class="margin">lLorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-                    </div>
-
-                    <div class="proyecto-img">
-                        <img src="Inatec.jpeg" alt="proyectos">
-                    </div>
-                </div> <!-- fin proyectos-->
-       
-                <div class="proyectos-item">
-
-                    <div class="proyecto-img">
-                        <img src="Cetec.jpg" alt="proyectos">
-                    </div>
-
-                    <div class="proyectos-info">
-                        <h2 class="margin">Operador en Microcomputadora</h2>
-                        <h3 class="margin">CETEC PLUS NICARGUA</h3>
-                        <p class="margin">lLorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-                    </div>
-                </div> <!-- fin proyectos-->
-
-                <div class="proyectos-item">
-
-                    <div class="proyectos-info">
-                        <h2 class="margin">Desarrollo web completo</h2>
-                        <h3 class="margin">UDEMY</h3>
-                        <p class="margin">lLorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-                    </div>
-
-                    <div class="proyecto-img">
-                        <img src="Udemy.jpg" alt="proyectos">
-                    </div>
-                </div> <!-- fin proyectos-->
-            </div>
-        </div>
-    </section> 
-    <!--fin proyectos-->
-
-    <!-- sobre mi -->
-    <section id="about">
-        <div class="about container">
-
-            <div class="border">
-                    <img src="Jz.jpg" alt="sobre mi">
-            </div>
-
-            <div class="about-texto">
-                <h1 class="titulo uppercase">Sobre <span class="titulo--color">Mi</span></h1>
-                <h3 class="margin">Contador Publico</h3>
-                <p class="margin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni! Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!</p>
-                <a href="#">Descargar resumen</a>
-            </div>
-        </div>
-    </section>
-    <!-- fin sobre mi -->
-
-    <!-- contacto -->
-    <section id="contacto">
-        <div class="contacto container">
-            <h1 class="titulo uppercase">Contacta<span class="titulo--color">Me</span></h1>
-            <div class="contacto-contenedor">
-
-                <div class="contacto-item">
-                    <i class="fas fa-phone-square-alt"></i>
-                    <div class="contacto-texto">
-                        <h3>Telefono</h3>
-                        <p>+505 8866 6727 Tigo</p>
-                        <p>+505 8655 2998 Claro</p>
-                    </div>
-                </div>
-
-
-                <div class="contacto-item">
-                    <i class="fas fa-envelope-open-text"></i>
-                    <div class="contacto-texto">
-                        <h3>Email</h3>
-                        <p>JZ300703@gmail.com</p>
-                        <p>Jeffry@accountant.com</p>
-                    </div>
-                </div>
-
-                <div class="contacto-item">
-                    <i class="fas fa-map-marked-alt"></i>
-                    <div class="contacto-texto">
-                        <h3>Ciudad</h3>
-                        <p>Matagalpa-Nicargua</p>
-                        <p>ElTuma La Dalia</p>
-                    </div>
-                </div>
-            </div>    
-    </section>
-    <!-- fin contacto -->
-
-    <!--icono subir -->
-
-    <div class="icono-subir">
-        <a href="#inicio">></a>
+    <!-- overlay -->
+    <div class="overlay"></div>
+    <!-- menu -->
+    <div class="menu">
+        <div class="menu-logo"><h2 class="menu-logo__h2"> <span class="menu-logo__span">W</span>hite</h2></div>
+        <div class="inicio-menu"><span class="inicio-menu__bar"></span></div>
     </div>
 
-    <!-- footer -->
-    <footer id="footer">
-        <div class="footer">
-            <h2><span class="titulo--color">J</span>effry Zamora<span class="titulo--color">a</span></h2>
-            <p>Contador Publico</p>
-            <div class="footer-iconos">
-                <a href="https://web.facebook.com/jeffryzamoraoficial" target="blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/jeffryzamoraoficial/" target="blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.youtube.com/" target="blank"><i class="fa fa-youtube"></i></a>
-                <a href="https://github.com/" target="blank"><i class="fa fa-github"></i></a>
+    <!-- Inicio -->
+    <section class="fondo-color">
+        <div class="inicio padding-left max-width">
+            <div class="inicio-texto">
+                <h2 class="texto__title">Hola, mi nombre es <span class="texto__span">Martin Flores</span></h2>
+                <h3 class="inicio-texto__h3">Soy, <span class="inicio-texto__aleatorio">Desarrollador Web</span></h3>
+                <p class="inicio-texto__p">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, rerum amet iste 
+                    neque quaerat labore nesciunt autem veritatis ea voluptas!...
+                </p>
+                <a href="src/html/sobre.html" class="inicio-texto__a">Leer Más</a>
             </div>
-
-            <code>Copyright © 2022 Jeffry Zamora. Reservados todos los derechos</code>
+            
+            <div class="inicio-imagen">
+                <div class="inicio-border"><img src="src/img/course-2-1.jpg" alt="imagen" class="inicio-imagen__img"></div>
+            </div>
         </div>
-    </footer>
-    <!-- fin footer -->
+    </section>
 
-    <!-- iconos -->
+    <!-- ---- TEMAS ---- -->
+    <div class="temas">
+        <div class="temas-contenedor">
+            <div class="temas-iconos">
+                <button class="temas-iconos__button">
+                    <i class="fas fa-cog temas-iconos__i temas-iconos__i--cog "></i>
+                </button>
+                <button class="temas-iconos__button temas-iconos__button--position">
+                    <i class="fas fa-moon temas-iconos__i temas-iconos__i--oscuro"></i>
+                    <i class="fas fa-sun temas-iconos__i temas-iconos__i--claro"></i>
+                </button>
+            </div>
+            <div class="temas-colores">
+                <div class="temas-padding">
+                    <h6 class="temas-colores__h6">Color Tema</h6>
+                    <div class="temas-circulos">
+                        <span class="temas-circulos__span rojo"></span>
+                        <span class="temas-circulos__span naranja"></span>
+                        <span class="temas-circulos__span verde"></span>
+                        <span class="temas-circulos__span azul"></span>
+                        <span class="temas-circulos__span rosado"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- js -->
+    <script src="src/js/app.js"></script>
     <script src="https://kit.fontawesome.com/b45f192329.js" crossorigin="anonymous"></script>
 
-    <!-- javacript -->
-    <script src="app.js"></script>
+    <!-- texto animado -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="src/js/texto-animado.js"></script>
 </body>
 </html>
