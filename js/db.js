@@ -1,6 +1,6 @@
 export const proyectos = [
     {
-        imagen: "Jz.png",
+        imagen: "Jz.jpg",
         url: "#",
         titulo: "Egresado de Educación Primaria",
         source: "#",
