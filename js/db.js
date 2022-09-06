@@ -6,4 +6,4 @@ export const proyectos = [
         source: "#",
         id: 1,
     },
-   
+   ];
